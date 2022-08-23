@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em 0;
+  background-color: #ffa45c;
+}
+
+.logo-img{
+  width: 60px;
+}
+
+.heading{
+  font-size: 2.2em;
+  margin-left: .4em;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  margin: 2em auto;
+  width: 80%;
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 2em;
+}
+
+.flex-container:last-child{
+  border: none;
+}
+
+.image-card{
+  height: 260px;
+  width: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: .1em .2em 1.45em rgba(0, 0, 0, .8);
+}
+
+.main-content{
+  margin-left: 2em;
+}
+
+.main-location{
+  display: flex;
+  align-items: center;
+}
+
+.main-title{
+  font-size: 2.6em;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: .4em;
+  letter-spacing: 2px;
+}
+
+.main-date{
+  font-weight: 800;
+  margin-bottom: .8em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.location-tab{
+  text-decoration: none;
+  color: #B0AFAF;
+  border-bottom: 1px solid #B0AFAF;
+  margin-left: .6em;
+}
+
+.location-name{
+  margin-left: .4em;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-desc{
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
+@media (max-width: 700px){
+  .logo-img{
+    width: 45px;
+  }
+
+  .heading{
+    font-size: 1.6em;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-card{
+    height: 250px;
+    width: 400px;
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6em;
+  }
+
+  .main-title{
+    font-size: 1.8em;
+  }
+
+  .main-desc{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px){
+  .logo-img{
+    width: 40px;
+  }
+
+  .heading{
+    font-size: 1.4em;
+  }
+
+  .flex-container{
+     margin-top: 4em;
+  }
+
+  .image-card{
+    height: 240px;
+    width: 180px;
+    min-width: 170px;
+    min-height: 230px;
+  }
+
+  .icon-image{
+    width: 25px;
+  }
+
+  .location-name{
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+
+  .location-tab{
+    font-size: 1em;
+  }
+
+  .main-date{
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+
+  .main-title{
+    font-size: 1.6em;
+    margin-top: .5em;
+    letter-spacing: 1px;
+  }
+}
+
