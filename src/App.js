@@ -7,7 +7,13 @@ export default function App() {
     return(
       <Main
         key = {item.id}
-        item = {item}
+        title = {item.title}
+        location = {item.location}
+        googleMapsUrl = {item.googleMapsUrl}
+        startDate = {item.startDate}
+        endDate = {item.endDate}
+        description = {item.description}
+        imageUrl = {item.imageUrl}
       />
     )
   })
