@@ -18,6 +18,8 @@ This Project is a travel Journal to save your favorite destination places. This 
 
 ## Screenshot
 
+![](./public/Travel-guide.png)
+
 
 ## Technologies I Used
 
