@@ -1,3 +1,4 @@
+
 const data = [
     {
         id: 1,
@@ -7,7 +8,7 @@ const data = [
         startDate: "12 Jan, 2018",
         endDate: "24 Jan, 2018",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aut perspiciatis voluptate, exercitationem adipisci ad sequi quam earum aspernatur non saepe laboriosam unde molestias, doloremque fugit autem, ipsum optio nam.",
-        imageUrl: "Mount-fuji.jpg",
+        img: "Mount-fuji.jpg",
     },
     {
         id: 2,
@@ -17,7 +18,7 @@ const data = [
         startDate: "27 May, 2018",
         endDate: "8 June, 2018",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aut perspiciatis voluptate, exercitationem adipisci ad sequi quam earum aspernatur non saepe laboriosam unde molestias, doloremque fugit autem, ipsum optio nam.",
-        imageUrl: "sydney-opera-house.jpg",
+        img: "sydney-opera-house.jpg",
     },
     {
         id: 3,
@@ -27,7 +28,7 @@ const data = [
         startDate: "1 Oct, 2018",
         endDate: "18 Nov, 2018",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aut perspiciatis voluptate, exercitationem adipisci ad sequi quam earum aspernatur non saepe laboriosam unde molestias, doloremque fugit autem, ipsum optio nam.",
-        imageUrl: "blue-lagoon.jpg",
+        img: "blue-lagoon.jpg",
     }           
 ]
 

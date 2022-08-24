@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import data from "./data"
+import data from "./data";
 
 export default function App() {
   const info = data.map(item =>{
@@ -13,7 +13,7 @@ export default function App() {
         startDate = {item.startDate}
         endDate = {item.endDate}
         description = {item.description}
-        imageUrl = {item.imageUrl}
+        img = {item.img}
       />
     )
   })
