@@ -9,24 +9,19 @@
  * [What I Learned](#what-i-learned)
 
 # Overview of the Project
-This project is based to take you on a Space travel Journey and to explore different plannets and learn about space. This website is fully responsive and made with HTML, CSS and Javascript.
+This Project is a travel Journal to save your favorite destination places. This Project is made with React using the concept called Props
 
 ## Challenges
-* The first challenge I faced is with styling of the project as doing simple styling with CSS wil be time consuming and code will become really difficult to         understand. To overcome this problem I created a design system for every page using custom properties which made it so much easy to add each properties as Classes.
-* Second challenge I faced is with switching between pages which can be achieved in two ways:-
-  * First is adding content in different pages and then linking it with anchor tags.
-  * Second is adding content in a single page and then using Javascript to switch between pages.
-  
-  So second method is much better and easy to apply to which I have used in this website.
+* The Challenge I faced with this project is showing images after deploying the project. When I deployed the project images were not visible as I was using saved images   in my public folder and react does not read properties which are placed in public folder and it remains untouched in the build folder. 
+
+  To solve this problem I used Url of each image which I want to display which works perfectly fine.
 
 ## Screenshot
 
-![](./assets/space-travel-website.png)
 
 ## Technologies I Used
-* Semantic HTML5
-* CSS
-* Javascript
+
+* React
 
 ## What I Learned
 * Learned about custom properties in CSS.
