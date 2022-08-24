@@ -13,7 +13,7 @@ export default function App() {
         startDate = {item.startDate}
         endDate = {item.endDate}
         description = {item.description}
-        img = {item.img}
+        imageUrl = {item.imageUrl}
       />
     )
   })

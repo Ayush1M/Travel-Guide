@@ -1,14 +1,15 @@
-
+import React from "react";
+import marker from "../place-marker.png";
 
 export default function Main(props){
     return(
         <div className="flex-container">
             <div className="image-content">
-                <img src={process.env.PUBLIC_URL + `./images/${props.img}`} alt="" className="image-card" />
+                <img src={`${props.imageUrl}`} alt="" className="image-card" />
             </div>
             <div className="main-content">
                 <div className="main-location">
-                    <img src={process.env.PUBLIC_URL + "./images/place-marker.png"} alt="" className="icon-image" />
+                    <img src={marker} alt="" className="icon-image" />
                     <h4 className="location-name">{props.location}</h4>
                     <p><a 
                     className="location-tab" 
